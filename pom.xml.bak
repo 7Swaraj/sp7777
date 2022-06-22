@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ksapp</groupId>
 	<artifactId>ks</artifactId>
-	<version>8-SNAPSHOT</version>
+	<version>9-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Web Application</name>
 	<description>Java Webapp</description>
@@ -47,9 +47,9 @@
 	<distributionManagement>
         <snapshotRepository>
             <id>deployment</id>
-            <url>http://34.133.107.92:8081/repository/maven-snapshots/</url>
+			<name>snapshot release</name>
+            <url>http://54.183.137.217:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
-		
-</project>
+	</project>
